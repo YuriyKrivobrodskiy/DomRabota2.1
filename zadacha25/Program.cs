@@ -22,7 +22,7 @@ bool CheckingB(int b)
 {
     if (b < 0)
     {
-        System.Console.WriteLine("Показатель не должен быть меньше нуля");
+        System.Console.WriteLine("Степень не  должна  быть меньше нуля!");
         return false;
     }
     return true;
@@ -32,5 +32,5 @@ int a = Prpompt("Введите число: ");
 int b = Prpompt("Введите степень: ");
 if (CheckingB(b))
 {
-    System.Console.WriteLine($"Число {a} в степени  {b} равно {Produkt(a, b) }");
+    System.Console.WriteLine($"Число {a} в степени {b} равно {Produkt(a, b) }");
 }
